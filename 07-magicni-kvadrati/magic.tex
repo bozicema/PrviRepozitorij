@@ -48,8 +48,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \maketitle
-\
-
 \begin{center}
    \includegraphics{slika.pdf}
 \end{center}
@@ -79,20 +77,20 @@ Prirejeno po:
    stolpca ali vsa števila v katerikoli od glavnih diagonal.
 \end{definicija}
 
-Primer magičnega kvadrata reda 3 je prikazan v tabeli~\ref{table:mag3}.
-
+Primer magičnega kvadrata reda 3 je prikazan v tabeli~\ref{tab:mag3}.
 % Od tu: drugi argument ukaza newenvironment
 \begin{magic}{3}{Magični kvadrat reda 3}{tab:mag3}
-% Do tu: drugi argument ukaza newenvironment
    8 & 1 & 6 \\\hline
    3 & 5 & 7 \\\hline
    4 & 9 & 2 \\\hline
-% Od tu: tretji argument ukaza newenvironment
-   
-% Do tu: tretji argument ukaza newenvironment
 \end{magic}
 
-Magični kvadrat v tabeli \ref{table:mag3} je normalen.
+\begin{definicija}
+   Magični kvadrat reda \(n\) je normalen, če v njem nastopajo števila
+   \[1,2,3,\cdots,n^2-1,n^2.\]
+\end{definicija}
+
+Magični kvadrat v tabeli \ref{tab:mag3} je normalen.
 To je tudi najmanjši netrivialen normalen magični kvadrat.
 Poleg normalnih magičnih kvadratov so zanimivi tudi magični kvadrati praštevil.
 
@@ -221,7 +219,7 @@ simetričnih parov (\(2+8+9+15\) in \(3+5+12+14\)), in še na nekaj drugih nači
 % - napis pod sliko: Pasijonska fasada, Sagrada Família
 % - oznaka: fig:sagrada
 
-\begin{figure}
+\begin{figure}[!ht]
    \centering
    \includegraphics[scale=0.45]{sagrada.png}
    \caption{Pasijonska fasada, Sagrada Família}
