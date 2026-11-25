@@ -23,6 +23,7 @@
 # Arhivi, iz katerih smo datoteke že odpakirali
 *.zip
 
+
 # MacOS
 __MACOSX
 .DS_Store
